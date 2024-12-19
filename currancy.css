@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: #333;
+  }
+  
+  /* Container */
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #6e8efb;
+  }
+  
+  /* Dropdown with Flags */
+  .currency-dropdown {
+    display: flex;
+    align-items: center;
+  }
+  
+  .currency-dropdown img {
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Form Styles */
+  .converter .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .converter label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .converter input,
+  .converter select,
+  .converter button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .converter button {
+    background: #6e8efb;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .converter button:hover {
+    background: #a777e3;
+  }
+  
+  /* Result Section */
+  .result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
